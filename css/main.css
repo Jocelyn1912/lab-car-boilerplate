@@ -76,6 +76,7 @@ small {
   border: 0.1em solid #fff;
   margin: 1em;
   padding: 3em;
+  overflow-y: hidden;
 }
 
 .borderIphone p {
