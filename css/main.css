@@ -1,28 +1,39 @@
 
-/* Los estilos de tu proyecto */
 * {
   overflow-x: hidden;
 }
+
+/*Sección header*/
 .navbar-edit {
   border: none;
   background-color: #fff;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
 }
 
-
+/*Imagen de fondo primera sección*/
 .carsImg {
   background-image: url(../assets/images/taxi.jpg);
   height: 100vh;
   background-position: bottom;
-  background-size: 100%;
+  height: 65em;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow-y: hidden;
 }
 
+.img-center {
+  margin-left: 1em;
+}
+
+/*Formulario amarillo primera sección*/
 .jumbotron {
-  margin-top: 8em;
-  padding: 1em;
+  margin-top: 18em;
+  padding: 2em;
   background-color: #F7B617;
   color: #fff;
+
 }
 
 .btn {
@@ -31,31 +42,84 @@
   border: none;
 }
 
-.iphone, .map {
-  background-color: #F7B617;
-  color: #FFF;
-  height: 35em;
+.centerText {
+  text-align: center;
+  border-bottom: 0.1em solid #fff;
 }
 
+small {
+  background-color: #F7B617;
+  position: relative;
+}
+
+/*Segunda sección, Iphone*/
+.iphone {
+  background-color: #F7B617;
+  color: #FFF;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.borde {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  border: 0.1em solid #fff;
+  padding: 3em;
+}
+
+/*Imágen Iphone 6*/
+.iphone6 {
+  height: 27em;
+}
+
+.borderIphone {
+  border: 0.1em solid #fff;
+  margin: 1em;
+  padding: 3em;
+}
+
+.borderIphone p {
+  text-align: center;
+  
+}
+
+.iphoneMovil {
+  width: 15em;
+  margin-right: 0;
+}
+
+
+/*Tercera sección chofer*/
 .clock {
   background-image: url(../assets/images/conduce.jpg);
-  height: 35em;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 }
 
-.clock, .btn {
+.clock .btn {
   background-color: #F7B617;
   color: #fff;
 }
 
-.clock {
-  height: 35em;
-}
+/*Texto costado derecho imagen chofer*/
 .opacidad {
+  color: #e5e0e0;
   background-color: rgba(0,0,0,0.6);
-  height: 35em;
+  height: 100vh;
+}
+
+/*Tercera sección mapa*/
+.map {
+  background-color: #F7B617;
+  color: #FFF;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+h3 {
+  overflow-y: hidden;
 }
 
 .form-control {
@@ -63,6 +127,7 @@
   border: 1px solid #fff;
 }
 
+/*Cambio de color placeholder*/
 .form-control::-webkit-input-placeholder {
   color: white;
 }/* WebKit, Blink, Edge */
@@ -79,6 +144,68 @@
   color: white;
 }/* Microsoft Edge */
 
-.map {
+.marginMap {
+  padding: 7%;
+}
+
+/*Mapa*/
+.imgMap{
+  width: 100%;
+}
+
+.borderMap {
+  border: 0.1em solid #fff;
+  padding: 0.8em;
+
+}
+
+.borderMap, .map, .line {
   overflow-y: hidden;
+}
+
+/*Pie de página*/
+footer {
+  background-color: #2B2B2B;
+  color: #fff;
+}
+
+.line, .imgLine {
+  border-bottom: 0.1em solid #fff;
+  padding: 1em 0;
+}
+
+.imgLine {
+  padding-top: 7%;
+}
+
+footer a {
+  display: block;
+  padding-top: 1.5em;
+  color: #e5e0e0;
+}
+
+.icons {
+  margin-bottom: 0.5em solid #fff;
+  padding-bottom: 1em;
+}
+
+footer p {
+  padding-top: 1em;
+  padding-bottom: 7%;
+}
+
+.logos {
+  margin-top: 10em;
+}
+
+.logo {
+  padding-top: 2em;
+}
+
+.fa {
+  padding-right: 0.5em;
+}
+
+.iconMovil {
+  padding-top: 1em;
 }

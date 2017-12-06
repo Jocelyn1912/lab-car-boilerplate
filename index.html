@@ -9,53 +9,55 @@
   <!-- CSS de bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
   <!-- Inicio header -->
-    
-      <nav class="navbar navbar-fixed-top navbar-default navbar-e">
-        <div class="container">
-          <!-- Menú hamburguesa versión móvil -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Logo header -->
-            <img class="img-responsive" src="assets/images/logoForma.png" alt="Logo Forma header">
-          </div>
-          <!-- Menú lateral derecho -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Viaja</a></li>
-              <li><a href="#">Conduce</a></li>
-              <li><a href="#">Inicia Sesión</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    
+  <header>
+    <nav class="navbar navbar-fixed-top navbar-default navbar-edit">
+      <div class="container">
+        <!-- Menú hamburguesa versión móvil -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Logo header -->
+          <img class="img-responsive img-center" src="assets/images/logoForma.png" alt="Logo Forma header">
+        </div>
+        <!-- Menú lateral derecho -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><strong>Viaja</strong></a></li>
+            <li><a href="#"><strong>Conduce</strong></a></li>
+            <li><a href="#"><strong>Inicia Sesión</strong></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
   <!-- Fin Header -->
 
   <!-- Inicio primera sección imagen taxi-->
   <section class="carsImg img-responsive">
     <div class="row">
       <div class="hidden-xs hidden-sm col-md-offset-7 col-md-5 col-lg-offset-7 col-lg-5">
+        <!-- Formulario amarillo -->
         <div class="jumbotron">
           <h2>Disfruta del viaje</h2>
           <h2>Eres dueño de tu tiempo</h2>
           <p>Viaja con <img src="assets/images/logoBlanco.png" alt=""></p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">REGÍSTRATE</a></p>
-          <p><small> O bien</small></p>
+          <p class="centerText"><small> O bien</small></p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en un conductor</a></p>
         </div>
       </div>
     </div>
-
+    <!-- versión móvil del formulario -->
     <div class="row">
-      <div class="col-xs-offset-4 col-xs-8 col-s-offset-6 col-s-6 hidden-md hidden-lg ">
+      <div class="col-xs-offset-2 col-xs-10 col-sm-offset-6 col-sm-6 hidden-md hidden-lg ">
         <div class="jumbotron">
           <h2>Comienza a viajar</h2>
           <p>Con <img class="img-responsive" src="assets/images/logoBlanco.png" alt=""></p>
@@ -64,56 +66,68 @@
       </div>
     </div>
   </section>
-  <!-- Fin primera sección imagen Iphone-->
+  <!-- Fin primera sección imagen Taxi-->
 
   <!-- Inicio segunda sección imagen Iphone-->
   <section class="iphone">
     <div class="row">
-      <div class="hidden-xs hidden-sm col-md-10 col-lg-10">
-        <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
-          <img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="iphone">
+      <div class="hidden-xs hidden-sm col-md-10 col-lg-10 borde">
+        <!-- Imágen Iphone -->
+        <div class="hidden-xs hidden-sm col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5">
+          <img class="img-responsive iphone6" src="assets/images/iPhone6Plus.png" alt="iphone">
         </div>
-        <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
-          <h2>Descarga la nueva app</h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicinghr <hr> Voluptas magnam alias, velit ipsum voluptates suscipit vitae mollitia? Sint ut adipisci numquam.</p>
+        <!-- Párrafo al costado derecho del Iphone -->
+        <div class="hidden-xs hidden-sm col-md-5 col-lg-5">
+          <h2><strong>Descarga la nueva app</strong></h2>
+          <p class="lead">La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido</p>
+          <p class="lead">Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg ">
-        <p>La nueva app</p>
-        <img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="iphone">
-        <p>Llega a tu destino aún más rápido</p>
+    <!-- Versión móvil sección Iphone -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg borderIphone">
+          <p><strong>La nueva app</strong></p>
+          <img class="img-responsive iphoneMovil" src="assets/images/iPhone6Plus.png" alt="iphone6">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg ">
+          <p>Llega a tu destino aún más rápido</p>
+        </div>
       </div>
     </div>
   </section>
   <!-- Fin segunda sección imagen taxi-->
 
-  <!-- Inicio tercera sección reloj-->
+  <!-- Inicio tercera sección chofer-->
   <section class="clock">
     <div class="row margen">
-      
       <div class="hidden-xs hidden-sm col-md-offset-8 col-md-4 col-lg-offset-8 col-lg-4 opacidad">
           <h2>Conduce cuando quieras</h2>
           <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en conductor</a></p>
         </div>
     </div>
-
-    <div class="row">
-      <div class="opacidad col-md-12 col-lg-12 hidden-md hidden-lg">
-          <h2>Conduce cuando quieras</h2>
+    <!-- Versión móvil -->
+    <div class="container">
+      <div class="row">
+        <div class="opacidad col-md-12 col-lg-12 hidden-md hidden-lg">
+          <h3>Conduce cuando quieras</h3>
           <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en conductor</a></p>
         </div>
+      </div>
     </div>
   </section>
+  <!-- Fin segunda sección chofer -->
 
+  <!-- Inicio tercera sección mapa-->
   <section class="map">
     <div class="container">
-      <div class="row">
-        <div class=" col-xs- 12 col-sm- 12 col-md-5 col-lg-5">
+      <div class="row marginMap">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <h3>Tarifas</h3>
           <p><small>Consulta las tarifas LabCar aquí</small></p>
           <form class="form-horizontal">
@@ -136,21 +150,84 @@
             </div>
           </form>
         </div>
-        <div class="hidden-xs hidden-sm col-md-5 col-lg-5">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.941608687654!2d-70.63951309999999!3d-33.41710665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512486853206" width="430" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <!-- Mapa -->
+        <div class="hidden-xs hidden-sm col-md-offset-3 col-md-5 col-lg-offset-3 col-lg-5 borderMap">
+          <iframe class="embed-responsive-item imgMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51121115.84046327!2d-95.8034567131389!3d-24.66508800818251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8467bda3440b7c6f%3A0xe791a5e0acaafcd3!2zQW3DqXJpY2E!5e0!3m2!1ses!2scl!4v1512522943824" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
+        <!-- Mapa versión móvil -->
+        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg borderMap">
+          <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51121115.84046327!2d-95.8034567131389!3d-24.66508800818251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8467bda3440b7c6f%3A0xe791a5e0acaafcd3!2zQW3DqXJpY2E!5e0!3m2!1ses!2scl!4v1512522943824" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- Inicio tercera sección mapa-->
 
-        <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
-          <iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.941608687654!2d-70.63951309999999!3d-33.41710665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512486853206" width="430" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- Inicio pié de página -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!-- Logo pié de página -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 imgLine">
+          <img class="img-responsive" src="assets/images/logoBlanco.png" alt="Logo lab-">
         </div>
+      </div>
+      <!-- columnas info pié de página -->
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-offset-3 col-md-3 col-md-offset-3 col-lg-3">
+          <a href="#">Viaja</a>
+          <a href="#">Conduce</a>
+          <a href="#">Ciudades</a>
+          <a href="#">Ciudades</a>
+          <a href="#">Entregas</a>
+          <a href="#">Cómo funciona?</a>
+          <a href="#">Países</a>
+          <a href="#">Seguridad</a>
+        </div>
+        <!-- Iconos y logos redes sociales versión móvil -->
+        <div class="col-xs-6 col-sm-6 hidden-md hidden-lg iconMovil">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
+          <img src="assets/images/enBadgeWebGeneric.png" alt="Logo Google Store" class="logo img-responsive">
+          <img src="assets/images/appstore.png" alt="Logo Apple" class="logo img-responsive">
+      </div>
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+          <a href="#">Oportunidades</a>
+          <a href="#">Nuestra Historia</a>
+          <a href="#">API de LabCar</a>
+          <a href="#">Eventos</a>
+          <a href="#">Desarrolladores</a>
+          <a href="#">Sevicios</a>
+          <a href="#">Laboratoria</a>
+          <a href="#">Coders</a>
+        </div>
+        <!-- Logos redes sociales -->
+        <div class="hidden-xs hidden-sm col-md-3 col-lg-3 logos">
+          <img src="assets/images/enBadgeWebGeneric.png" alt="Logo Google Store" class="logo img-responsive">
+          <img src="assets/images/appstore.png" alt="Logo Apple" class="logo img-responsive">
+        </div>
+      </div>
+      <div class="row line">
+        <!-- Iconos redes sociales -->
+        <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>© 2017 LabCar technologies Inc</p>
         </div>
       </div>
     </div>
-  </section>
-  
-
-
-
+  </footer>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
