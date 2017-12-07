@@ -32,7 +32,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><strong>Viaja</strong></a></li>
             <li><a href="#"><strong>Conduce</strong></a></li>
-            <li><a href="#"><strong>Inicia Sesión</strong></a></li>
+            <li><a href="#" data-toggle="modal" data-target="#login-modal"><strong>Inicia Sesión</strong></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -170,7 +170,7 @@
       <div class="row">
         <!-- Logo pié de página -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 imgLine">
-          <img class="img-responsive" src="assets/images/logoBlanco.png" alt="Logo lab-">
+          <img class="img-responsive" src="assets/images/logoBlanco.png" alt="Logo lab">
         </div>
       </div>
       <!-- columnas info pié de página -->
@@ -228,6 +228,25 @@
       </div>
     </div>
   </footer>
+  
+  <!-- Modal registro -->
+  <div class="fondoModal1">
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="loginmodal-container">
+        <form>
+          <input type="text" name="user" placeholder="Username">
+          <input type="password" name="pass" placeholder="Password">
+        </form>
+        <a href="#" class="btn btn-warning">LOGING</a>
+        <div class="login-help">
+          <a href="#">Forgot password?</a>
+          <a class="text-danger" href="#">Click here</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
